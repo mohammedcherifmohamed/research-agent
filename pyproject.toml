@@ -1,0 +1,21 @@
+[project]
+name = "research-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mohammedcherifmohamed", email = "mafsamarari@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "colorama>=0.4.6",
+    "langchain-tavily>=0.2.18",
+    "langgraph-cli[inemem,inmem]>=0.4.40",
+]
+
+[project.scripts]
+research-agent = "research_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
