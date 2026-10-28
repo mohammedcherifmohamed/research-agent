@@ -9,8 +9,12 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "colorama>=0.4.6",
+    "langchain>=1.4.7",
+    "langchain-google-genai>=4.4.2",
     "langchain-tavily>=0.2.18",
-    "langgraph-cli[inemem,inmem]>=0.4.40",
+    "langgraph>=1.2.18",
+    "langgraph-cli[inmem]>=0.4.40",
+    "python-dotenv>=1.2.4",
 ]
 
 [project.scripts]
